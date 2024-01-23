@@ -1,0 +1,18 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image,
+.hero-detail {
+  flex: 1 1 50%;
+}
+
+.hero-detail__heading {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 5.8rem;
+  line-height: 6.8rem;
+  letter-spacing: 1px;
+}
