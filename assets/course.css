@@ -1,0 +1,128 @@
+.course-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-intro {
+  width: 458px;
+}
+
+.course-intro__heading {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  letter-spacing: -2%;
+}
+
+.course-intro__desc {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--secondary-color);
+  margin-top: 2rem;
+  margin-bottom: 5.5rem;
+}
+
+.course-control {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.course-control_prev--btn,
+.course-control_next--btn {
+  border: 1px solid var(--bg-btn-color);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-control_prev--btn {
+  background: #fff;
+  margin-right: 1.5rem;
+}
+
+.course-control_next--btn {
+  background: var(--bg-btn-color);
+}
+
+.course-list {
+  display: flex;
+  align-items: center;
+  margin: 0 -1.5rem;
+}
+
+.course-item {
+  flex: 0 0 33.333333%;
+  padding: 0 1.5rem;
+}
+
+.course-item__image {
+  width: 100%;
+}
+
+.course-item__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.course-item__detail {
+  padding: 1.5rem 2rem;
+}
+
+.course-item__detail--heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--primary-color);
+  display: inline-block;
+}
+
+.course-item__detail--rating {
+  display: flex;
+  float: right;
+}
+
+.course-item__detail--rating-value {
+  color: #fea31b;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+}
+
+.course-item__detail--desc {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: var(--secondary-color);
+}
+
+.course-item__detail--footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-item__detail--footer-price {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--primary-color);
+}
+
+.course-item__detail--footer-book-btn {
+  color: #fff;
+  background: var(--bg-btn-color);
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 2.5rem;
+}
