@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1440px;
+  width: 100%;
+  margin-top: 20rem;
 }
 
 .testimonial-people {

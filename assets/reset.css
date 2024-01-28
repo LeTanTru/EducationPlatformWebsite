@@ -50,7 +50,7 @@ a {
 }
 
 .wrapper {
-  width: 1440px;
   margin: 0 auto;
   margin-bottom: 200px;
+  background: var(--hero-bg-color);
 }

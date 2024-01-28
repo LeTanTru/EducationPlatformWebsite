@@ -1,6 +1,5 @@
 .hero {
   margin: 0 auto;
-  width: 1170px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,6 +7,7 @@
   background: var(--hero-bg-color);
   margin-top: 10rem;
   margin-bottom: 6.5rem;
+  width: 1170px;
 }
 
 .hero-image,
